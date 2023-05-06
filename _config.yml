@@ -42,7 +42,8 @@ minima:
   #   - { platform: telegram,       user_url: "https://t.me/jekyll" }
       - { platform: twitter,        user_url: "https://twitter.com/paulromer2036" }
   #   - { platform: youtube,        user_url: "https://www.youtube.com/jekyll" }
-
+github_username: your_github_username
+twitter_username: your_twitter_username
 # If you want to link only specific pages in your header, uncomment this and add the path to the pages in
 # order as they should show up.
 #
@@ -51,4 +52,4 @@ minima:
 
 # Set to `true` to show excerpts on the homepage.
 #
-# show_excerpts: false
+show_excerpts: true
