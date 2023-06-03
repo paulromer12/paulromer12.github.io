@@ -3,7 +3,6 @@ layout: post
 title:  "Replit 100 Days of Code - Python"
 ---
 
-# Replit's 100 Days of Code
 Today marks the completion of Replit's 100 Days of Code challenge. 
 
 Over the past few years, I've dabbled in programming. I've explored Harvard's CS50 class, watched countless YouTube videos/twitch streams (Engineering Man, ThePrimeagen, georgehotz, John Hammond, Fireship, Computerphile, ect.), started various courses, learned git, and reviewed the basics multiple times. Each time I returned to programming, it was driven by my curiosity and fascination with understanding how to really use computers, but I lacked a concrete goal. While I acquired some knowledge each time, such as utilizing while loops for interest calculations or creating CLI madlibs, I never felt I possessed the skills needed to do any real projects.
