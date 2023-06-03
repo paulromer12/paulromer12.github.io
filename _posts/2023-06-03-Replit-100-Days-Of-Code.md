@@ -1,3 +1,8 @@
+---
+layout: post
+title:  "Replit 100 Days of Code - Python"
+---
+
 # Replit's 100 Days of Code
 Today marks the completion of Replit's 100 Days of Code challenge. 
 
