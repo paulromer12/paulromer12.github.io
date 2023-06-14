@@ -1,0 +1,33 @@
+VIM:
+
+NeoVim game vimbegood 
+
+4 Important Modes: 
+1 - Normal, where you start 
+2 - Insert, you can move your curser around
+3 - Visual, line mode like highlighting with your curser
+4 - Command, type commands (:w enter saves the file, :q quites)
+
+
+Normal Mode: 
+J - go up 
+K - go down 
+L - go left 
+H - go right 
+W - hops over by word
+B - hops backwards
+
+Relative line numbers and counts 
+
+
+Command Mode 
+d - delete (dd delete a line)
+u  -undo 
+ctrl r - redo the previous action
+ctrl u - undo  
+
+Insert 
+
+
+
+
