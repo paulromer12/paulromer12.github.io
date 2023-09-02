@@ -20,6 +20,7 @@ favorite podcasts
 * [The Drive](https://podcasts.apple.com/us/podcast/the-peter-attia-drive/id1400828889)
 * [My First Million](https://podcasts.apple.com/us/podcast/my-first-million/id1469759170)
 * [The Knowledge Project](https://podcasts.apple.com/us/podcast/the-knowledge-project-with-shane-parrish/id990149481)
+* [Tech on Deck](https://podcasts.apple.com/us/podcast/tech-on-deck/id1678031913)
 
 
 favorite books
