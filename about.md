@@ -32,9 +32,9 @@ key principles and ideas I believe
 * repentence is key
 * show me the incentive and I will show you the outcome - Charlie Munger
 * continual focused learning, given enough time, is the key to success
-* self-relience 
 * we know less than we think, be humble
 * work fast and get feedback often
+* self-relience 
 
 
 
