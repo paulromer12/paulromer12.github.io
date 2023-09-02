@@ -5,7 +5,7 @@ permalink: /about/
 ---
 
 I have no idols. I admire work, dedication and competence. -Ayrton Senna
-
+</br></br></br>
 
 things I'm interested in
 * finance & business
