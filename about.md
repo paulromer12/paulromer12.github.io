@@ -14,12 +14,12 @@ things I'm interested in
 * high performance
 
 favorite podcasts
-* [Founders](https://overcast.fm/itunes1141877104/founders)
-* [How to Take Over the World](https://overcast.fm/itunes1333158713/how-to-take-over-the-world)
-* [Acquired](https://overcast.fm/itunes1050462261/acquired)
-* [The Drive](https://overcast.fm/itunes1400828889/the-peter-attia-drive)
-* [My First Million](https://overcast.fm/itunes1469759170/my-first-million)
-* [The Knowledge Project](https://overcast.fm/itunes990149481/the-knowledge-project-with-shane-parrish)
+* [Founders](https://podcasts.apple.com/us/podcast/founders/id1141877104)
+* [How to Take Over the World](https://podcasts.apple.com/us/podcast/how-to-take-over-the-world/id1333158713)
+* [Acquired](https://podcasts.apple.com/us/podcast/acquired/id1050462261)
+* [The Drive](https://podcasts.apple.com/us/podcast/the-peter-attia-drive/id1400828889)
+* [My First Million](https://podcasts.apple.com/us/podcast/my-first-million/id1469759170)
+* [The Knowledge Project](https://podcasts.apple.com/us/podcast/the-knowledge-project-with-shane-parrish/id990149481)
 
 
 favorite books
