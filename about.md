@@ -4,16 +4,14 @@ title: about me
 permalink: /about/
 ---
 
-I have no idols. I admire work, dedication and competence. 
-Ayrton Senna
-<br/>
+I have no idols. I admire work, dedication and competence. -Ayrton Senna
+
 
 things I'm interested in
 * finance & business
 * technology
 * health
 * high performance
-<br/>
 
 favorite podcasts
 * [Founders](https://overcast.fm/itunes1141877104/founders)
@@ -22,11 +20,10 @@ favorite podcasts
 * [The Drive](https://overcast.fm/itunes1400828889/the-peter-attia-drive)
 * [My First Million](https://overcast.fm/itunes1469759170/my-first-million)
 * [The Knowledge Project](https://overcast.fm/itunes990149481/the-knowledge-project-with-shane-parrish)
-<br/>
+
+
 favorite books
 * Ender's Game
-...
-<br/>
 
 key principles and ideas I believe
 * people are generally good, there is evil in the world 
