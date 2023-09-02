@@ -15,7 +15,7 @@ things I'm interested in
 * high performance
 <br/>
 
-favorite podcasts (overcast is the best player)
+favorite podcasts
 * [Founders](https://overcast.fm/itunes1141877104/founders)
 * [How to Take Over the World](https://overcast.fm/itunes1333158713/how-to-take-over-the-world)
 * [Acquired](https://overcast.fm/itunes1050462261/acquired)
