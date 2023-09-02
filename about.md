@@ -1,11 +1,42 @@
 ---
 layout: page
-title: About Me
+title: about me
 permalink: /about/
 ---
 
-I'm Paul. I enjoy learning how things work and have broad interests. I work in finanace and my focus now is learning about and getting experience with technology to move into a technology role as a business analyst. I'll post all manner of thoughts and projects as I tinker and learn. Strong opinions loosely held.
+I have no idols. I admire work, dedication and competence. 
+- Ayrton Senna
 
-[linkedin](https://www.linkedin.com/in/paul-romer/)
+
+things I'm interested in
+* finance & business
+* technology
+* health
+* high performance
+
+
+favorite podcasts (overcast is the best player)
+* [Founders](https://overcast.fm/itunes1141877104/founders)
+* [How to Take Over the World](https://overcast.fm/itunes1333158713/how-to-take-over-the-world)
+* [Acquired](https://overcast.fm/itunes1050462261/acquired)
+* [The Drive](https://overcast.fm/itunes1400828889/the-peter-attia-drive)
+* [My First Million](https://overcast.fm/itunes1469759170/my-first-million)
+* [The Knowledge Project](https://overcast.fm/itunes990149481/the-knowledge-project-with-shane-parrish)
+
+favorite books
+* Ender's Game
+...
+
+
+key principles and ideas I believe
+* people are generally good, there is evil in the world 
+* everyone has capacity for tremendous good and evil
+* repentence is key
+* show me the incentive and I will show you the outcome - Charlie Munger
+* continual focused learning, given enough time, is the key to success
+* self-relience 
+* we know less than we think, be humble
+* work fast and get feedback often
+
 
 
