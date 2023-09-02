@@ -24,7 +24,10 @@ favorite podcasts
 
 
 favorite books
-* Ender's Game
+* [The Bible, The Book of Mormon](https://www.churchofjesuschrist.org/study/scriptures?lang=eng&platform=web)
+* [Ender's Game](https://www.amazon.com/Enders-Game-Ender-Quartet-Book-ebook/dp/B003G4W49C/ref=tmm_kin_swatch_0?_encoding=UTF8&qid=&sr=)
+* [Great by Choice](https://www.amazon.com/Great-Choice-Uncertainty-Luck-Why-Despite-ebook/dp/B0058DTIC0/ref=sr_1_1?keywords=great+by+choice&s=digital-text&sr=1-1)
+* [The Art of Learning](https://www.amazon.com/Art-Learning-Journey-Optimal-Performance-ebook/dp/B000QCQ970/)
 
 key principles and ideas I believe
 * people are generally good, there is evil in the world 
