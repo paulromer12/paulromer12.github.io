@@ -1,77 +1,108 @@
-<!DOCTYPE html>
+<!doctype html>
 <html>
+    <head>
+        <title>About Paul Romer</title>
+        <link rel="stylesheet" href="style.css" />
+    </head>
 
-<head>
-    <title>About Me</title>
-    <style>
-        .small-image {
-            width: 300px;
-            border-radius: 10px;
-            float: right;
-            margin-right: 10px;
-        }
+    <body>
+        <div id="dhead" class="container">
+            <div class="row">
+                <div id="dpic">
+                    <img src="assets/me.jpg" alt="Paul Romer" class="ppic" />
+                </div>
+                <div id="ddesc">
+                    <h1>Paul Romer</h1>
+                    <h2>aspiring software developer, builder</h2>
+                    <h2>tech, business, car, and racing</h2>
+                    <div id="dico">
+                        <a href="https://x.com/paulromer2036"
+                            ><img
+                                src="assets/ctwitter.svg"
+                                alt="X"
+                                class="iico"
+                        /></a>
+                        <a href="https://github.com/paulromer12"
+                            ><img
+                                src="assets/cgithub.svg"
+                                alt="GitHub"
+                                class="iico"
+                        /></a>
+                        <a href="https://linkedin.com/in/paul-romer"
+                            ><img
+                                src="assets/clinkedin.webp"
+                                alt="LinkedIn"
+                                class="iico"
+                        /></a>
+                        <img
+                            src="assets/cemail.svg"
+                            alt="Email"
+                            id="iemail"
+                            class="iico"
+                            style="cursor: pointer"
+                        />
+                    </div>
+                    <div id="demail"></div>
+                    <nav class="nav-menu">
+                        <ul>
+                            <li><a href="/">Home</a></li>
+                            <li><a href="/projects">Projects</a></li>
+                            <li><a href="/thoughts">Thoughts</a></li>
+                            <!-- <li></li><a href="/made">Fidelity Made</a></li> -->
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </div>
+        <div id="resume" class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="resume-section">
+                <h3>Favorite Quote</h3>
+                <blockquote>
+                    <p>"I have no idols.<br>
+                    I admire work,<br>
+                    dedication, and<br>
+                    competence."</p>
+                    <footer>- Ayrton Senna</footer>
+                </blockquote>
+            </div>
 
-        h1 {
-            text-align: left;
-            color: #95a1f9;
-            margin-left: 40px;
-        }
+            <div class="resume-section">
+                <h3>My Interests</h3>
+                <ul>
+                    <li>technology</li>
+                    <li>business and finance</li>
+                    <li>health</li>
+                    <li>formula 1</li>
+                </ul>
+            </div>
 
-        body {
-            background-color: #1F1F1F;
-            color: #D3D3D3;
-        }
+            <div class="resume-section">
+                <div class="favorite-sections">
+                    <div class="favorite-item">
+                        <h3>Favorite Podcasts</h3>
+                        <ul>
+                            <li><a href="https://podcasts.apple.com/us/podcast/founders/id1141877104">Founders</a></li>
+                            <li><a href="https://podcasts.apple.com/us/podcast/how-to-take-over-the-world/id1333158713">How to Take Over the World</a></li>
+                            <li><a href="https://podcasts.apple.com/us/podcast/acquired/id1050462261">Acquired</a></li>
+                            <li><a href="https://podcasts.apple.com/us/podcast/the-peter-attia-drive/id1400828889">The Drive</a></li>
+                            <li><a href="https://podcasts.apple.com/us/podcast/my-first-million/id1469759170">My First Million</a></li>
+                            <li><a href="https://podcasts.apple.com/us/podcast/the-knowledge-project-with-shane-parrish/id990149481">The Knowledge Project</a></li>
+                        </ul>
+                    </div>
+                    <div class="favorite-item">
+                        <h3>Favorite Books</h3>
+                        <ul>
+                            <li><a href="https://www.churchofjesuschrist.org/study/scriptures?lang=eng&platform=web">The Bible, The Book of Mormon</a></li>
+                            <li><a href="https://www.amazon.com/Enders-Game-Ender-Quartet-Book-ebook/dp/B003G4W49C/">Ender's Game</a></li>
+                            <li><a href="https://www.amazon.com/Great-Choice-Uncertainty-Luck-Why-Despite-ebook/dp/B0058DTIC0/?keywords=great+by+choice&sr=1-1">Great by Choice</a></li>
+                            <li><a href="https://www.amazon.com/Art-Learning-Journey-Optimal-Performance-ebook/dp/B000QCQ970/">The Art of Learning</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
 
-        a {
-            color: #95a1f9;
-            text-decoration: none;
-        }
-    </style>
-</head>
-
-<body>
-    <h1><a href="/">P1</h1></a>
-    <h2>About Me</h2>
-    <h3>
-        <a href="/">Home</a>
-
-        <p>I have no idols. I admire work, dedication, and competence. - Ayrton Senna</p>
-
-        <h4>Things I'm interested in</h4>
-        <ul>
-            <li>Finance and business</li>
-            <li>Technology</li>
-            <li>Health</li>
-            <li>Formula 1</li>
-        </ul>
-
-        <h4>Favorite Podcasts</h4>
-        <ul>
-            <li><a href="https://podcasts.apple.com/us/podcast/founders/id1141877104">Founders</a></li>
-            <li><a href="https://podcasts.apple.com/us/podcast/how-to-take-over-the-world/id1333158713">How to Take Over
-                    the World</a></li>
-            <li><a href="https://podcasts.apple.com/us/podcast/acquired/id1050462261">Acquired</a></li>
-            <li><a href="https://podcasts.apple.com/us/podcast/the-peter-attia-drive/id1400828889">The Drive</a></li>
-            <li><a href="https://podcasts.apple.com/us/podcast/my-first-million/id1469759170">My First Million</a></li>
-            <li><a href="https://podcasts.apple.com/us/podcast/the-knowledge-project-with-shane-parrish/id990149481">The
-                    Knowledge Project</a></li>
-            <li><a href="https://podcasts.apple.com/us/podcast/tech-on-deck/id1678031913">Tech on Deck</a></li>
-        </ul>
-
-        <h4>Favorite Books</h4>
-        <ul>
-            <li><a href="https://www.churchofjesuschrist.org/study/scriptures?lang=eng&platform=web">The Bible, The Book
-                    of Mormon</a></li>
-            <li><a href="https://www.amazon.com/Enders-Game-Ender-Quartet-Book-ebook/dp/B003G4W49C/">Ender's Game</a>
-            </li>
-            <li><a
-                    href="https://www.amazon.com/Great-Choice-Uncertainty-Luck-Why-Despite-ebook/dp/B0058DTIC0/?keywords=great+by+choice&sr=1-1">Great
-                    by Choice</a></li>
-            <li><a href="https://www.amazon.com/Art-Learning-Journey-Optimal-Performance-ebook/dp/B000QCQ970/">The Art
-                    of Learning</a></li>
-        </ul>
-
-       <!--
+            <!--
         <h4>Principles and Ideas That I Believe</h4>
         <ul>
             <li>People are generally good; there is evil in the world</li>
@@ -84,7 +115,6 @@
             <li>Work fast and get feedback often</li>
             <li>Self-reliance</li>
             </ul> -->
-    </h3>
-</body>
-
+        </h3>
+    </body>
 </html>

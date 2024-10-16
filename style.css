@@ -38,6 +38,7 @@ body {
 h1 {
     font-size: 34px;
     font-weight: normal;
+    color: #95a1f9;
     padding: 0;
     margin: 0 0 10px 0;
 }
@@ -167,7 +168,24 @@ h2 {
     margin-bottom: 10px;
 }
 
+/* New styles for favorite sections */
+.favorite-sections {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-bottom: 30px;
+}
+
+.favorite-item {
+    flex: 0 0 48%; /* Each section takes 48% of the width */
+    margin-bottom: 20px;
+}
+
+/* Ensure proper layout for smaller screens */
 @media (max-width: 768px) {
+    .favorite-item {
+        flex: 0 0 100%; /* Full width on smaller screens */
+    }
     .resume-item {
         padding-left: 15px;
     }
