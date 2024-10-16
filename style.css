@@ -20,12 +20,13 @@ body {
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    margin-top: 50px;
 }
 /* Props */
 #dhead {
-    margin-top: 20px;
+    margin-top: 30px;
     text-align: center;
+    border-bottom: 2px solid grey;
+    padding-bottom: 20px;
 }
 #dpic {
     flex: 0 0 240px;
@@ -84,20 +85,7 @@ h2 {
     color: #d8d4cf;
     text-decoration: none;
 }
-@media (max-width: 768px) {
-    .row {
-        flex-direction: column;
-    }
-    #dpic {
-        margin-right: 0;
-        margin-bottom: 20px;
-    }
-    #ddesc {
-        text-align: center;
-    }
-}
 
-/* New Resume Styles */
 #resume {
     margin-top: 50px;
 }
@@ -169,35 +157,41 @@ h2 {
     margin-bottom: 10px;
 }
 
-/* New styles for favorite sections */
-.favorite-sections {
+.about-content {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
     margin-bottom: 30px;
 }
 
+.left-column {
+    flex: 0 0 48%;
+    margin-left: 50px;
+}
+
+.favorite-quote,
+.interests {
+    margin-bottom: 20px;
+}
+
+.favorite-sections {
+    flex: 0 0 48%;
+    display: flex;
+    flex-direction: column;
+}
+
 .favorite-item {
-    flex: 0 0 48%; /* Each section takes 48% of the width */
     margin-bottom: 20px;
 }
 
 /* Ensure proper layout for smaller screens */
 @media (max-width: 768px) {
-    .favorite-item {
+    .about-content {
+        flex-direction: column;
+    }
+
+    .left-column,
+    .favorite-sections {
         flex: 0 0 100%; /* Full width on smaller screens */
-    }
-    .resume-item {
-        padding-left: 15px;
-    }
-
-    .resume-item::before {
-        left: -3px;
-        width: 6px;
-        height: 6px;
-    }
-
-    .skills-list li {
-        flex-basis: 100%;
     }
 }
