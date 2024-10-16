@@ -1,33 +1,144 @@
 <!doctype html>
-<html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Projects - Paul Romer</title>
+        <link rel="stylesheet" href="style.css" />
+        <link rel="icon" href="assets/Logo White.png" type="image/x-icon" />
+    </head>
+    <body>
+        <div id="dhead" class="container">
+            <div class="row">
+                <div id="dpic">
+                    <img src="assets/me.jpg" alt="Paul Romer" class="ppic" />
+                </div>
+                <div id="ddesc">
+                    <h1>Paul Romer</h1>
+                    <h2>aspiring software developer, builder</h2>
+                    <h2>tech, business, car, and racing</h2>
+                    <div id="dico">
+                        <a href="https://x.com/paulromer2036"
+                            ><img
+                                src="assets/ctwitter.svg"
+                                alt="Twitter"
+                                class="iico"
+                        /></a>
+                        <a href="https://github.com/paulromer12"
+                            ><img
+                                src="assets/cgithub.svg"
+                                alt="GitHub"
+                                class="iico"
+                        /></a>
+                        <a href="https://linkedin.com/in/paul-romer"
+                            ><img
+                                src="assets/clinkedin.webp"
+                                alt="LinkedIn"
+                                class="iico"
+                        /></a>
+                        <img
+                            src="assets/cemail.svg"
+                            alt="Email"
+                            id="iemail"
+                            class="iico"
+                            style="cursor: pointer"
+                        />
+                    </div>
+                    <div id="demail"></div>
+                    <nav class="nav-menu">
+                        <ul>
+                            <li><a href="/home">Home</a></li>
+                            <li><a href="/about">About Me</a></li>
+                            <li><a href="/thoughts">Thoughts</a></li>
+                            <!-- <li></li><a href="/made">Fidelity Made</a></li> -->
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </div>
 
-<head>
-    <title>Home</title>
-    <link rel="stylesheet" href="style.css" />
-</head>
+        <!-- Projects Section -->
+        <div id="projects" class="container">
+            <h2 class="section-title">Projects</h2>
 
-<body>
-    <div class="nav-menu">
-        <a href="/">Home</a>
-    </div>
-    <br />
-    <h1>Projects</h1>
+            <!-- GitHub and Replit Links -->
+            <div class="project-links">
+                <p>
+                    <a href="https://github.com/paulromer12"
+                        >View My Projects on GitHub</a
+                    >
+                </p>
+                <p>
+                    <a href="https://replit.com/@paulromer12"
+                        >View My Projects on Replit</a
+                    >
+                </p>
+            </div>
 
-    <h2>this website</h2>
-    <p>
-        <!-- <ul>Goal</ul> -->
-        <li>show my work</li>
-        <li>demonstrate that I can create a simple website</li>
-        <li>
-            expand my tech skills and have a place to practice what I learn
-        </li>
-        <li>expand my thoughts (strong opinions loosly held)</li>
-    <h2> software development degree </h2>
-    <li> finish my degree </li>
-    <li> get a serious jump start into my education on software development, fill in the gaps so far from self learning
-    </li>
-    <li> be the obvious choice for better employement at my current job, set myself up for the future</li>
-    </p>
-</body>
+            <!-- Project 2 -->
+            <div class="resume-section">
+                <h3>
+                    <a
+                        href="https://github.com/paulromer12/school_assignments/blob/main/fall24/csd320/Module-11/ElementLocation.java"
+                        >Array Element Location in Java</a
+                    >
+                </h3>
+                <img
+                    src="assets/images/ElementLocation.png"
+                    alt="Element Location Output Screenshot"
+                    class="project-image"
+                />
+                <p>
+                    This is a Java application I created using method
+                    overloading to return the location of the largest, and
+                    smallest, element in the 2D array. Returning an 1D array
+                    with the location. The `Main` method runs these methods and
+                    prints the array with the location and the value for the
+                    respecitve element.
+                </p>
+            </div>
 
+            <!-- Project 1 -->
+            <div class="resume-section">
+                <h3>
+                    <a
+                        href="https://github.com/paulromer12/school_assignments/blob/main/fall24/csd320/Module-10/OverloadedMethods.java"
+                        >Method Overloading Practice</a
+                    >
+                </h3>
+                <img
+                    src="assets/images/Method Overload.png"
+                    alt="Method Overload Code Output"
+                    class="project-image"
+                />
+                <p>
+                    This Java program demonstrates the concept of method
+                    overloading by calculating and printing the average of
+                    arrays of different numeric types (short, int, long, and
+                    double). It includes: 1. Four overloaded average() methods,
+                    each designed to compute the average of arrays of different
+                    types. 2. A test program that creates arrays of varying
+                    sizes and types and invokes the respective overloaded method
+                    to compute the average. 3. A series of printArray() methods
+                    to display the elements of each array in a clean, readable
+                    format. The program outputs the original elements of the
+                    arrays along with their computed averages, ensuring
+                    correctness across different data types and array sizes.
+                </p>
+            </div>
+        </div>
+        <!-- Example Section for projects
+        <div class="resume-section">
+            <h3>Project Title</h3>
+            <img
+                src="assets/project-image.png"
+                alt="Project Image"
+                class="project-image"
+            />
+            <p>
+                Brief description of the project, its functionality, and key
+                technologies used.
+            </p>
+            </div> -->
+    </body>
 </html>
