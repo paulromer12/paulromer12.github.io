@@ -12,7 +12,12 @@ TODO:
   * purple accents #95A1F9
   * light gray text? #FEFDFB
   * 
-
+* create goals and issues page
+  * Goals: 
+    - Learn and demonstrate web developement
+  * Issues: 
+   - I don't understand the deployement
+   - 
 
 Why: 
 * post longer form writing and thoughts. 
