@@ -72,19 +72,35 @@
                     document.getElementById("markdown-container");
                 const postPath = window.location.search.split("=")[1];
 
+                console.log("Post path:", postPath); // Debugging
+
                 if (postPath) {
-                    fetch("/writing/" + postPath)
-                        .then((response) => response.text())
+                    markdownContainer.innerHTML = "<p>Loading...</p>";
+                    fetch(postPath) // Use the path directly from the URL parameter
+                        .then((response) => {
+                            console.log("Response status:", response.status); // Debugging
+                            if (!response.ok) {
+                                throw new Error(
+                                    `HTTP error! status: ${response.status}`,
+                                );
+                            }
+                            return response.text();
+                        })
                         .then((markdown) => {
+                            console.log(
+                                "Markdown content:",
+                                markdown.substring(0, 100) + "...",
+                            ); // Debugging
                             markdownContainer.innerHTML = marked(markdown);
                         })
                         .catch((error) => {
                             console.error("Error loading markdown:", error);
                             markdownContainer.innerHTML =
-                                "<p>Oops! We couldn't load the content. Please try again later or contact support if the problem persists.</p>";
+                                "<p>Error loading content. Please try again later or contact support if the problem persists.</p>";
                         });
                 } else {
-                    markdownContainer.innerHTML = "<p>No post selected.</p>";
+                    markdownContainer.innerHTML =
+                        "<p>No post selected. Please choose a post from the Thoughts page.</p>";
                 }
             });
         </script>
