@@ -1,3 +1,4 @@
+/* Reset and base styles */
 body {
     margin: 0;
     padding: 0;
@@ -7,6 +8,7 @@ body {
     line-height: 1.4;
     color: #d8d4cf;
 }
+
 /* Layout */
 .container {
     margin-left: auto;
@@ -15,28 +17,40 @@ body {
     padding-right: 15px;
     max-width: 1200px;
 }
+
 .row {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
 }
-/* Props */
+
+/* Header styles */
 #dhead {
     margin-top: 30px;
     text-align: center;
     border-bottom: 2px solid grey;
     padding-bottom: 20px;
 }
+
 #dpic {
     flex: 0 0 240px;
     margin-right: 30px;
 }
+
 #ddesc {
     flex: 1;
     min-width: 300px;
     max-width: 600px;
 }
+
+#dpic img {
+    width: 240px;
+    height: 240px;
+    border-radius: 120px;
+}
+
+/* Typography */
 h1 {
     font-size: 34px;
     font-weight: normal;
@@ -44,6 +58,7 @@ h1 {
     padding: 0;
     margin: 0 0 10px 0;
 }
+
 h2 {
     font-weight: normal;
     font-style: italic;
@@ -52,25 +67,38 @@ h2 {
     padding: 0;
     margin: 5px 0 10px 0;
 }
-#dpic img {
-    width: 240px;
-    height: 240px;
-    border-radius: 120px;
-}
+
+/* Icons and social links */
 .iico {
     width: 40px;
     height: 40px;
     margin-right: 10px;
 }
+
 #demail {
     margin-top: 10px;
     color: #555;
     opacity: 0;
     transition: opacity 0.7s;
 }
+
+/* Links */
+a {
+    color: #b388ff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    color: #7c4dff;
+    text-decoration: underline;
+}
+
+/* Navigation menu */
 .nav-menu {
     margin-top: 20px;
 }
+
 .nav-menu ul {
     list-style-type: none;
     padding: 0;
@@ -78,14 +106,21 @@ h2 {
     justify-content: center;
     flex-wrap: wrap;
 }
+
 .nav-menu li {
     margin: 0 15px 10px 15px;
 }
+
 .nav-menu a {
     color: #d8d4cf;
     text-decoration: none;
 }
 
+.nav-menu a:hover {
+    color: #7c4dff;
+}
+
+/* Resume section */
 #resume {
     margin-top: 50px;
 }
@@ -157,6 +192,7 @@ h2 {
     margin-bottom: 10px;
 }
 
+/* About section */
 .about-content {
     display: flex;
     justify-content: space-between;
@@ -184,19 +220,7 @@ h2 {
     margin-bottom: 20px;
 }
 
-/* Ensure proper layout for smaller screens */
-@media (max-width: 768px) {
-    .about-content {
-        flex-direction: column;
-    }
-
-    .left-column,
-    .favorite-sections {
-        flex: 0 0 100%; /* Full width on smaller screens */
-    }
-}
-
-/* Project Section */
+/* Project section */
 #projects {
     margin-top: 50px;
 }
@@ -225,18 +249,14 @@ h2 {
     border-radius: 5px;
 }
 
-.resume-section h3 {
-    font-size: 24px;
-    color: #b3b3b3;
-    margin-bottom: 10px;
-}
-
-/* blog */
+/* Blog styles */
 .blog-container {
     max-width: 800px;
     margin: 0 auto;
     padding: 20px;
     text-align: center;
+    font-family: sans-serif;
+    font-size: 18px;
 }
 
 .post-date {
@@ -260,6 +280,19 @@ h2 {
     text-decoration: none;
 }
 
+.blog-container article h2 a {
+    text-decoration: none;
+    font-family: sans-serif;
+    font-size: 24px;
+    color: #95a1f9;
+}
+
+.blog-container article h2 a:hover {
+    text-decoration: none;
+    color: #95a1f9;
+}
+
+/* Header and footer */
 header {
     text-align: center;
     text-decoration: underline;
@@ -276,19 +309,14 @@ footer {
     margin-top: 50px;
 }
 
-.blog-container {
-    font-family: sans-serif;
-    font-size: 18px;
-}
+/* Media queries for responsiveness */
+@media (max-width: 768px) {
+    .about-content {
+        flex-direction: column;
+    }
 
-.blog-container article h2 a {
-    text-decoration: none;
-    font-family: sans-serif;
-    font-size: 24px;
-    color: #95a1f9;
-}
-
-.blog-container article h2 a:hover {
-    text-decoration: none;
-    color: #95a1f9;
+    .left-column,
+    .favorite-sections {
+        flex: 0 0 100%;
+    }
 }
