@@ -140,34 +140,35 @@
                 technologies used.
             </p>
             </div> -->
-    </body>
-    <!-- JavaScript function to obfuscate email address to avoid scrapers/spam. -->
-    <script type="text/javascript">
-        const rot13 = (message) => {
-            const alpha =
-                "abcdefghijklmnopqrstuvwxyzabcdefghijklmABCDEFGHIJKLMNOPQRSTUVWXYZABCDEFGHIJKLM";
-            return message.replace(
-                /[a-z]/gi,
-                (letter) => alpha[alpha.indexOf(letter) + 13],
-            );
-        };
 
-        const reverseRot13 = (message) => {
-            // Simply apply ROT13 again
-            return rot13(message);
-        };
-        var e_is_shown = false;
-        document
-            .getElementById("iemail")
-            .addEventListener("click", function () {
-                let demail = document.getElementById("demail");
-                let msg =
-                    "ebzre.vaobk" +
-                    "@" +
-                    "tznvy.pbz<oe> Srry serr gb ernpu bhg vs lbh unir nal funerq vagrerfgf be wbo bccbeghavgvrf. :)";
-                demail.innerHTML = rot13(msg);
-                demail.style.opacity = e_is_shown ? 0 : 1;
-                e_is_shown = !e_is_shown;
-            });
-    </script>
+        <!-- JavaScript function to obfuscate email address to avoid scrapers/spam. -->
+        <script type="text/javascript">
+            const rot13 = (message) => {
+                const alpha =
+                    "abcdefghijklmnopqrstuvwxyzabcdefghijklmABCDEFGHIJKLMNOPQRSTUVWXYZABCDEFGHIJKLM";
+                return message.replace(
+                    /[a-z]/gi,
+                    (letter) => alpha[alpha.indexOf(letter) + 13],
+                );
+            };
+
+            const reverseRot13 = (message) => {
+                // Simply apply ROT13 again
+                return rot13(message);
+            };
+            var e_is_shown = false;
+            document
+                .getElementById("iemail")
+                .addEventListener("click", function () {
+                    let demail = document.getElementById("demail");
+                    let msg =
+                        "ebzre.vaobk" +
+                        "@" +
+                        "tznvy.pbz<oe> Srry serr gb ernpu bhg vs lbh unir nal funerq vagrerfgf be wbo bccbeghavgvrf. :)";
+                    demail.innerHTML = rot13(msg);
+                    demail.style.opacity = e_is_shown ? 0 : 1;
+                    e_is_shown = !e_is_shown;
+                });
+        </script>
+    </body>
 </html>
