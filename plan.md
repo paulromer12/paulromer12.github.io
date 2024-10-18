@@ -3,9 +3,10 @@ Personal Website:
 TODO:
 - [ ] Make page for MADE
 - [ ] Photoshop linked in picture
+- [ ] Write about this website, why I made the decisions I did and plans for the future
+- [ ] How to learn a new codebase
 
 # Made TODO
-- [ ] Add certifications
 - [ ] Add why I'm a perfect fit for MADE
 - [ ] Add experiences (amplify, loans)
 
