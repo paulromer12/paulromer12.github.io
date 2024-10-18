@@ -2,7 +2,6 @@ Personal Website:
 
 TODO:
 - [ ] Photoshop linked in picture
-- [ ] Write about this website, why I made the decisions I did and plans for the future
 - [ ] How to learn a new codebase
 
 # Made TODO
