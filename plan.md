@@ -5,6 +5,7 @@ TODO:
 - [ ] How to learn a new codebase
 - [ ] Share website with people
 
+
 # Made TODO
 
 
@@ -31,8 +32,9 @@ When Fidelity MADE opens for 2025, demonstrate a capability and passion for tech
   * Learn JavaScript
 4. Practice Leet Code Weekly for the next 6 months |
   * Study and write about 1 per week, redoing it every day learning the different ways and why. Post on Saturdays. From Neetcode.io
-5. Find an open source project I could contribute to | Due *****
-6. Participate in Thrive in the next 12 months |
+5. Pick a priority (APIs, etc)
+6. Find an open source project I could contribute to | Due *****
+7. Participate in Thrive in the next 12 months |
 
 Done:
 1. Finalize initial personal website | Due Oct 20 | DONE Oct 18
