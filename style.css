@@ -31,6 +31,8 @@ body {
     text-align: center;
     border-bottom: 2px solid grey;
     padding-bottom: 20px;
+    border-top: 2px solid grey;
+    padding-top: 20px;
 }
 
 #dpic {
