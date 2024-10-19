@@ -1,7 +1,6 @@
 Personal Website:
 
 TODO:
-- [ ] Photoshop linked in picture
 - [ ] How to learn a new codebase
 - [ ] Share website with people
 
