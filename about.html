@@ -7,55 +7,17 @@
     </head>
 
     <body>
-        <div id="dhead" class="container">
-            <div class="row">
-                <div id="dpic">
-                    <img src="assets/me.jpg" alt="Paul Romer" class="ppic" />
-                </div>
-                <div id="ddesc">
-                    <h1>Paul Romer</h1>
-                   <!-- -- <h2>aspiring software developer, builder</h2>
-                    <h2>tech, business, car, and racing</h2> -->
-                    <div id="dico">
-                        <a href="https://github.com/paulromer12"
-                            ><img
-                                src="assets/github.webp"
-                                alt="GitHub"
-                                class="iico"
-                        /></a>
-                        <a href="https://linkedin.com/in/paul-romer"
-                            ><img
-                                src="assets/linkedin.webp"
-                                alt="LinkedIn"
-                                class="iico"
-                        /></a>
-                        <img
-                            src="assets/email.webp"
-                            alt="Email"
-                            id="iemail"
-                            class="iico"
-                            style="cursor: pointer"
-                        />
-                        <a href="https://x.com/paulromer2036"
-                            ><img
-                                src="assets/x(twitter).webp"
-                                alt="Twitter"
-                                class="iico"
-                        /></a>
-                    </div>
-                    <div id="demail"></div>
-                    <nav class="nav-menu">
-                        <ul>
-                            <li><a href="/index">Home</a></li>
-                            <li><a href="/about">About Me</a></li>
-                            <li><a href="/projects">Projects</a></li>
-                            <li><a href="/thoughts">Thoughts</a></li>
-                            <!-- <li></li><a href="/made">Fidelity Made</a></li> -->
-                        </ul>
-                    </nav>
-                </div>
-            </div>
-        </div>
+        <div id="header-placeholder"></div>
+
+        <script>
+            fetch("/header.html")
+                .then((response) => response.text())
+                .then((data) => {
+                    document.getElementById("header-placeholder").innerHTML =
+                        data;
+                });
+        </script>
+
         <div class="resume-section">
             <div class="about-content">
                 <!-- Left Column: Quote and Interests -->
