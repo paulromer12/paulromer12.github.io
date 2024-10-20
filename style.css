@@ -322,3 +322,55 @@ footer {
         flex: 0 0 100%;
     }
 }
+
+/* Media queries for responsiveness */
+@media (max-width: 768px) {
+    .about-content {
+        flex-direction: column;
+    }
+
+    .left-column,
+    .favorite-sections {
+        flex: 0 0 100%;
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .favorite-quote,
+    .interests,
+    .favorite-item {
+        width: 100%;
+        max-width: none;
+    }
+
+    /* Adjust padding and margins for better use of space */
+    .container {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    /* Ensure text is readable on smaller screens */
+    body {
+        font-size: 16px;
+    }
+
+    h3 {
+        font-size: 20px;
+    }
+}
+
+/* Additional media query for even smaller screens */
+@media (max-width: 480px) {
+    .container {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    body {
+        font-size: 14px;
+    }
+
+    h3 {
+        font-size: 18px;
+    }
+}
