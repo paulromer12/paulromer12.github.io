@@ -1,7 +1,8 @@
 Personal Website:
 
 TODO:
-- [ ] Move case study to projects?
+- [ ] Convert to Jekyll?
+- [ ] Create separate header file?
 - [ ] How to learn a new codebase
 - [ ] Share website with people
 
