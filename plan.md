@@ -2,7 +2,7 @@ Personal Website:
 
 TODO:
 - [ ] Convert to Jekyll?
-- [ ] Create separate header file?
+- [ ] remove separate header file
 - [ ] How to learn a new codebase
 - [ ] Share website with people
 
