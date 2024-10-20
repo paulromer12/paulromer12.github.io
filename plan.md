@@ -1,6 +1,7 @@
 Personal Website:
 
 TODO:
+- [ ] Move case study to projects?
 - [ ] How to learn a new codebase
 - [ ] Share website with people
 
