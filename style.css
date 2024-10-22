@@ -194,33 +194,30 @@ a:hover {
     margin-bottom: 10px;
 }
 
-/* About section */
+/* About section layout */
 .about-content {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
     margin-bottom: 30px;
+    padding: 0 20px;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .left-column {
-    flex: 0 0 48%;
-    margin-left: 50px;
-}
-
-.favorite-quote,
-.interests {
-    margin-bottom: 20px;
+    flex: 0 0 45%; /* Reduced from 48% to accommodate padding */
+    padding-left: 100px;
 }
 
 .favorite-sections {
-    flex: 0 0 48%;
+    flex: 0 0 45%; /* Reduced from 48% to prevent overflow */
     display: flex;
     flex-direction: column;
+    padding-right: 20px; /* Add some right padding */
 }
 
-.favorite-item {
-    margin-bottom: 20px;
-}
 
 /* Project section */
 #projects {
@@ -315,25 +312,14 @@ footer {
 @media (max-width: 768px) {
     .about-content {
         flex-direction: column;
+        padding: 0 15px;
     }
 
     .left-column,
     .favorite-sections {
         flex: 0 0 100%;
-    }
-}
-
-/* Media queries for responsiveness */
-@media (max-width: 768px) {
-    .about-content {
-        flex-direction: column;
-    }
-
-    .left-column,
-    .favorite-sections {
-        flex: 0 0 100%;
-        margin-left: 0;
-        margin-right: 0;
+        padding-left: 15px;
+        padding-right: 15px;
     }
 
     .favorite-quote,
@@ -341,36 +327,24 @@ footer {
     .favorite-item {
         width: 100%;
         max-width: none;
-    }
-
-    /* Adjust padding and margins for better use of space */
-    .container {
-        padding-left: 15px;
-        padding-right: 15px;
-    }
-
-    /* Ensure text is readable on smaller screens */
-    body {
-        font-size: 16px;
-    }
-
-    h3 {
-        font-size: 20px;
+        margin-bottom: 30px;
     }
 }
 
-/* Additional media query for even smaller screens */
+
 @media (max-width: 480px) {
-    .container {
+    #dpic img {
+        width: 150px; /* Even smaller on very small screens */
+        height: 150px;
+    }
+
+    .about-content {
+        padding: 0 10px;
+    }
+
+    .left-column,
+    .favorite-sections {
         padding-left: 10px;
         padding-right: 10px;
-    }
-
-    body {
-        font-size: 14px;
-    }
-
-    h3 {
-        font-size: 18px;
     }
 }
