@@ -22,12 +22,12 @@ When Fidelity MADE opens for 2025, demonstrate a capability and passion for tech
 - Study and practice leet code every day
 - Contribute to open source
 - Participate in a Thrive project
-- Meet with talant aquisition in Tech. What do they look for in tech and made hires?
+- Meet with talent acquisition in Tech. What do they look for in tech and made hires?
 - Network more
 - Practice for tech interviews
 ## Tactics
 2. Building on personal website for MADE. | DUE *****
-  * Made page: why I would be a good fit. what I've done to prepare. education & certificates. work experience amplify and loan. relevent personal projects.
+  * Made page: why I would be a good fit. what I've done to prepare. education & certificates. work experience amplify and loan. relevant personal projects.
   * Consider what a video could look like for MADE
 3. Implement School Learnings and Personal Projects for the next 6 months |
   * Learn JavaScript
